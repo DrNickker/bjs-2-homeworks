@@ -23,9 +23,9 @@ if (D > 0) {
   console.log("Дискриминант: " + D + " < 0, => корней нет: ");
   console.log(arr);
 }
+return arr;
 };
 
-return arr;
 
 
 
@@ -78,4 +78,4 @@ function calculateTotalMortgage(percent, contribution, amount, date) {
 
   // код для задачи №2 писать здесь
 
-  return totalAmount;
+  return totalAmount;*/
