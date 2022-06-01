@@ -25,6 +25,7 @@ function getArrayParams(arr) {
 
 
 
+
 // Задание 2
 function worker(arr) {
   let sum = 0;
@@ -47,11 +48,10 @@ function makeWork(arrOfArr, func) {
 
 
 
-
 // Задание 3
 function worker2(arr) {
   let min = max = arr[0];
-  
+
   for (let i = 1; i < arr.length; i++) {
       if (max < arr[i]) {
           max = arr[i];
