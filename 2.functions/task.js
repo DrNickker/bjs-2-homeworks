@@ -23,9 +23,6 @@ function getArrayParams(arr) {
 };
 
 
-
-
-
 // Задание 2
 function worker(arr) {
   let sum = 0;
@@ -43,9 +40,6 @@ function makeWork(arrOfArr, func) {
   }
   return max;
 }
-
-
-
 
 
 // Задание 3
